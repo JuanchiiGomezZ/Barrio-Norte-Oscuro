@@ -21,6 +21,11 @@ body{
     background-color: #2b2f31;
 }
 
+::-webkit-scrollbar {width: 1px;height: 1px;} 
+::-webkit-scrollbar-corner {background: transparent;}
+::selection { 
+    background: var(--rojo-leno); /*Color naranja para el fondo*/
+    color: var(--blanco); }
 
 header{
     width: 100%;
