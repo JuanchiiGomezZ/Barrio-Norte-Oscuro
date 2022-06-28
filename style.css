@@ -334,6 +334,9 @@ footer .website-logo{
 
 @media screen and (min-width:900px){ 
     
+    footer i{
+        font-size: 1.6em;
+    }
     nav{
     height: 100px;
 }
