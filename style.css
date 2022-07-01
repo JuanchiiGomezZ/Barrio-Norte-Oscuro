@@ -3,7 +3,7 @@
     --rojo-oscuro:#960f1a;
     --blanco:whitesmoke;
     --naranja:#ef8e3d;
-    --bg-gris:#2b2f31;
+   --bg-gris: #171819;  
 }
 
 *{
@@ -18,7 +18,7 @@
 
 body{
     overflow-x: hidden;
-    background-color: #2b2f31;
+    background-color: var(--bg-gris);
 }
 
 ::-webkit-scrollbar {width: 1px;height: 1px;} 
@@ -90,7 +90,13 @@ nav{
    transition: 0.3s;
 }
 
-
+.nav-menu li a i {
+    font-size: 1.1em;
+  }
+  .nav-menu li a i:hover {
+    color: rgb(240, 240, 57);
+  }
+  
 #check{
     display: none;
 }
